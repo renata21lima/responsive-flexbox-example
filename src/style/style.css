@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    background-color: lightblue;
+    background-color: #FFCC00;
     padding: 60px;
     text-align: center;
 }
@@ -19,10 +19,34 @@ main{
 }
 
 h3{
+    margin: 20px;
     text-transform: uppercase;
 }
 
+.details{
+    display: flex;
+    gap: 20px;
+}
+
 .card{
-    background-color: lightblue;
+    background-color: #FFCC00;
     padding: 16px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.image-card{
+    background-color: #FFCC00;
+    border: 1px solid #e2e2e2;
+    padding:10px;
+}
+
+img[alt="Imagem-Pokemon"]{
+    width: 100%;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
