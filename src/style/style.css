@@ -19,8 +19,8 @@ main{
 }
 
 h3{
-    margin: 20px;
     text-transform: uppercase;
+    margin: 20px;
 }
 
 .details{
@@ -32,6 +32,25 @@ h3{
     background-color: #FFCC00;
     padding: 16px;
     border-radius: 5px;
-    text-align: justify;
     border: 1px solid black;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.img-card{
+    background-color: #FFCC00;
+    padding: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+img[alt="Imagem Aleatoria"]{
+    width: 100%;
 }
