@@ -54,3 +54,9 @@ h3{
 img[alt="Imagem Aleatoria"]{
     width: 100%;
 }
+
+@media screen and (max-width: 690px) {
+    .details{
+        flex-direction: column;
+    }
+}
