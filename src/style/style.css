@@ -60,3 +60,8 @@ img[alt="Imagem Aleatoria"]{
         flex-direction: column;
     }
 }
+@media screen and (pointer: coarse) {
+    header{
+        color: blue;
+    }
+}
